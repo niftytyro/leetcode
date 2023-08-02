@@ -1,5 +1,3 @@
-import math
-
 class Solution:
     def isPalindrome(self, x: int) -> bool:
         reversed = str(x)[::-1]
@@ -16,8 +14,7 @@ tests = [
         False,
     ),
     (
-        ( 10, ),
-        False
-    )
+        (10,),
+        False,
+    ),
 ]
-
